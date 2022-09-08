@@ -1,0 +1,12 @@
+.style {
+  background-color: #102a44;
+  padding: 5rem 0;
+}
+.linksContainer {
+  max-width: 1300px;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}

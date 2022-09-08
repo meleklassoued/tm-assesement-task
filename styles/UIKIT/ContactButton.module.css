@@ -1,0 +1,13 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3d5975;
+  background-color: #dae8f6;
+  border: none;
+  gap: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}

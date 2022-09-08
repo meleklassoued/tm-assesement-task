@@ -1,0 +1,33 @@
+.container {
+  background-image: url('../../images/TABONI/background-hero.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 2rem;
+  background-repeat: no-repeat;
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heroDescription {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.searchSection {
+  margin-top: 6rem;
+}
+@media screen and (max-width: 1500px) {
+  .heroDescription {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+.heroDescription h1,
+.heroDescription p {
+  color: white;
+  width: 30%;
+}
