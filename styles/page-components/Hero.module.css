@@ -1,5 +1,5 @@
 .container {
-  background-image: url('../../images/TABONI/background-hero.png');
+  background-image: url('../../images/TABONI/background-hero - Edited.png');
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -20,14 +20,68 @@
 .searchSection {
   margin-top: 6rem;
 }
-@media screen and (max-width: 1500px) {
+/* @media screen and (max-width: 1500px) {
   .heroDescription {
     max-width: 1000px;
     margin: 0 auto;
   }
-}
+} */
 .heroDescription h1,
 .heroDescription p {
   color: white;
   width: 30%;
+}
+.ActiveBtn {
+  padding: 10px 12px;
+  background-color: #dae8f6;
+  color: #102a44;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.Btn {
+  padding: 10px 12px;
+  background-color: #dae8f66e;
+  color: White;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 3px 3px 0px 0px;
+}
+.Inputs {
+  background-color: #dae8f6;
+  padding: 1.5rem 0.5rem;
+  width: fit-content;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.Inputs input {
+  outline: none;
+  border: none;
+  padding: 12px 7px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.Inputs ::placeholder {
+  font-size: 15px;
+  font-weight: 700;
+  color: #102a44;
+}
+.Inputs button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #102a44;
+  background-color: #f3cd4b;
+  border: none;
+  gap: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
 }
